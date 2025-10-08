@@ -1,1 +1,1 @@
-export const API_BASE_URL = 'https://music-dates-1.onrender.com'
+export const API_BASE_URL = 'https://musicdates.onrender.com'
