@@ -1,0 +1,58 @@
+:root {
+  --accent-color: #DF1212;
+  --light-accent-color: #FFE9E9;
+  --simple-border: #e5e5e5;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #330000;
+  background: linear-gradient(90deg,rgba(51, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(51, 0, 0, 1) 100%);
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+span{
+  color: var(--accent-color);
+}
+
+p{
+  margin: 0 20px;
+  color: #4f4f4f;
+
+}
+
+h1 {
+  font-weight: 800;
+  color: #fff;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+  appearance: none; /* Общее свойство */
+  outline: none;
+}
+
+/* Chrome, Edge, Safari */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}

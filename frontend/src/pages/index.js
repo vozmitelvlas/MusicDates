@@ -1,0 +1,7 @@
+export * from "./categories/categories.jsx"
+export * from "./login/login.jsx"
+export * from "./register/register.jsx"
+export * from "./platforms/platforms.jsx"
+export * from "./event/event.jsx"
+export * from "./new-event/new-event.jsx"
+export * from "./users/users.jsx"

@@ -1,0 +1,1 @@
+export const selectModalData = ({app}) => app.modal
