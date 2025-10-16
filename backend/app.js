@@ -11,7 +11,7 @@ const app = express()
 
 app.use(express.static(path.resolve('..', 'frontend', 'dist')))
 app.use(cors({
-    origin: 'https://music-dates-1.onrender.com',
+    origin: 'https://musicdates.onrender.com',
     credentials: true,
 }))
 

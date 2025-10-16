@@ -6,8 +6,8 @@ export const CategoriesContainer = ({className}) => {
         <div className={className}>
             <h1>Категории</h1>
             <div className="list">
-                <Category src="/lessons.jpg" to={"/lessons"}>Уроки музыки</Category>
-                <Category src="/parties.jpg" to={"/parties"}>Квартирники</Category>
+                <Category src="/lessons.jpg" to={"/lessons"} className="not-active">Уроки музыки</Category>
+                <Category src="/parties.jpg" to={"/parties"} className="not-active">Квартирники</Category>
                 <Category src="/concerts.jpg" to={"/platforms"}>Музыкальные площадки</Category>
             </div>
         </div>
@@ -31,5 +31,9 @@ export const Categories = styled(CategoriesContainer)`
     padding: 0 30px;
   }
   
-
+  .not-active{
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: none;
+  }
 `
