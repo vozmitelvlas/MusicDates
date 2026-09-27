@@ -16,7 +16,7 @@
 
 ### Стек
 
-React · JS · Redux · Vite · Nodejs · Express · MongoDb · Bcrypt
+React · JS · Redux · Vite · Nodejs · Express · MongoDb · Bcrypt · Docker
 
 ### Demo
 
